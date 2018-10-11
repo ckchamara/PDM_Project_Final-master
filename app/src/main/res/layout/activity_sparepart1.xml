@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart1">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart1_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart1_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A particulate air filter is a device composed of fibrous materials which removes solid particulates such as dust, pollen, mould, and bacteria from the air. Filters containing an absorbent or catalyst such as charcoal (carbon) may also remove odors and gaseous pollutants such as volatile organic compounds or ozone. Air filters are used in applications where air quality is important, notably in building ventilation systems and in engines.\n\nSome buildings, as well as aircraft and other human-made environments (e.g., satellites and space shuttles) use foam, pleated paper, or spun fiberglass filter elements. Another method, air ionisers, use fibers or elements with a static electric charge, which attract dust particles. The air intakes of internal combustion engines and air compressors tend to use either paper, foam, or cotton filters. Oil bath filters have fallen out of favor. The technology of air intake filters of gas turbines has improved significantly in recent years, due to improvements in the aerodynamics and fluid dynamics of the air-compressor part of the gas turbines.\n\nThe cabin air filter is typically a pleated-paper filter that is placed in the outside-air intake for the vehicle's passenger compartment. Some of these filters are rectangular and similar in shape to the combustion air filter. Others are uniquely shaped to fit the available space of particular vehicles' outside-air intakes.\n\nThe first automaker to include a disposable filter to clean the ventilation system was the Nash Motors, introduced in 1940.\n\nBeing a relatively recent addition to automobile equipment, this filter is often overlooked, and can greatly reduce the effectiveness of the vehicle's air conditioning and heating performance. Clogged or dirty cabin air filters can significantly reduce airflow from the cabin vents, as well as introduce allergens into the cabin air stream. The poor performance of these filters is obscured by manufacturers by not using the MERV rating system. Some people mistakenly believe that some of these are HEPA filters.\n\nThe combustion air filter prevents abrasive particulate matter from entering the engine's cylinders, where it would cause mechanical wear and oil contamination.\n\nMost fuel injected vehicles use a pleated paper filter element in the form of a flat panel. This filter is usually placed inside a plastic box connected to the throttle body with ductwork. Older vehicles that use carburetors or throttle body fuel injection typically use a cylindrical air filter, usually a few inches high and between 6 inches (150 mm) and 16 inches (410 mm) in diameter. This is positioned above the carburetor or throttle body, usually in a metal or plastic container which may incorporate ducting to provide cool and/or warm inlet air, and secured with a metal or plastic lid. The overall unit (filter and housing together) is called the air cleaner.\n\nCotton\n\nOiled cotton gauze is employed in a growing number of aftermarket automotive air filters marketed as high-performance items. In the past, cotton gauze saw limited use in original-equipment automotive air filters. However, since the introduction of the Abarth SS versions, the Fiat subsidiary supplies cotton gauze air filters as OE filters.\n\nStainless steel\n\nStainless steel mesh is another example of medium which allow more air to pass through. Stainless steel mesh comes with different mesh counts, offering different filtration standards. In an extreme modified engine lacking in space for a cone based air filter, some will opt to install a simple stainless steel mesh over the turbo to ensure no particles enter the engine via the turbo.\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart1_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

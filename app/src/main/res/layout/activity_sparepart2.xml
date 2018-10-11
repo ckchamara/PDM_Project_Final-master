@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart2">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart2_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart2_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="An airbag is a type of vehicle safety device and is an occupant restraint system. The airbag module is designed to inflate extremely rapidly then quickly deflate during a collision or impact with a surface or a rapid sudden deceleration. It consists of the airbag cushion, a flexible fabric bag, inflation module and impact sensor. The purpose of the airbag is to provide the occupants a soft cushioning and restraint during a crash event to prevent any impact or impact-caused injuries between the flailing occupant and the interior of the vehicle. The airbag provides an energy absorbing surface between the vehicle's occupant and a steering wheel, instrumental panel, A-B-C- structural body frame pillars, headliner and windshield/windscreen.\n\nModern vehicles may contain multiple airbag modules in various configurations including:\n\nDriver airbag module\nPassenger airbag module\nSide curtain airbag module\nSeat-mounted side impact airbag module\nKnee bolster airbag module\nInflatable seat-belt modules\nFront Right Side Airbag Sensor\nFront Left Side Airbag Sensor\nPedestrian airbag module\n\nDuring a crash event, the vehicle's crash sensor(s) provide crucial information to the airbag electronic controller unit (ECU), including collision type, angle and severity of impact. Using this information, the airbag electronic controller unit's crash algorithm determines if the crash event meets the criteria for deployment and triggers various firing circuits to deploy one or more airbag modules within the vehicle. Working as a supplemental restraint system to the vehicle's seat-belt systems, airbag module deployments are triggered through a pyrotechnic process that is designed to be used once. Newer side-impact airbag modules consist of compressed air cylinders that are triggered in the event of a side impact vehicle impact.\n\nThe first commercial designs were introduced in passenger automobiles during the 1970s with limited success. Broad commercial adoption of airbags occurred in many markets during the late 1980s and early 1990s with a driver airbag, and a front passenger airbag as well on some cars; and many modern vehicles now include six or more units.\n\nOver time, various manufacturers have used different terms for airbags. In the 1970s, General Motors marketed its first airbag modules under the unwieldy name Air Cushion Restraint System (ACRS). Common terms in North America refer to a nominal role as a supplement to active restraints, i.e. seat belts. Because no action by a vehicle occupant is required to activate or use the airbag, it is considered a passive device. This is in contrast to seat belts, which are considered active devices because the vehicle occupant must act to enable them.\n\nThis terminology is not related to active and passive safety, which are, respectively, systems designed to prevent accidents in the first place, and systems designed to minimize the effects of accidents once they occur. In this usage, a car Anti-lock Braking System (ABS) will qualify as an active-safety device, while both its seatbelts and airbags will qualify as passive-safety devices. Further terminological confusion can arise from the fact that passive devices and systems—those requiring no input or action by the vehicle occupant—can operate independently in an active manner; an airbag is one such device. Vehicle safety professionals are generally careful in their use of language to avoid this sort of confusion, though advertising principles sometimes prevent such semantic caution in the consumer marketing of safety features. Further confusing the terminology, the aviation safety community uses the terms active and passive in the opposite sense from the automotive industry.\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart2_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

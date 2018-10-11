@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart11">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart11_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart11_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A beam axle, rigid axle or solid axle is a dependent suspension design, in which a set of wheels is connected laterally by a single beam or shaft. Beam axles were once commonly used at the rear wheels of a vehicle, but historically they have also been used as front axles in rear-wheel-drive vehicles. In most automobiles, beam axles have been replaced by front and rear independent suspensions.\n\nA beam axle's fore and aft location is constrained by either: trailing arms, semi-trailing arms, radius rods, or leaf springs. The lateral location is constrained by either: a Panhard rod, a Scott Russell linkage or a Watt's linkage. While shock absorbers and either leaf springs, coil springs, or air bags are used to control vertical movement.\n\nThe Twist-beam rear suspension is a similar suspension design, however its beam axle is able to twist thereby functioning as an anti-roll bar to control the roll motion of the body and is considered to be an semi-independent suspension design.\n\nA live axle is a type of beam axle in which the shaft (or shafts, since live axles, while connected to move as a single unit, are seldom one piece) also transmits power to the wheels; a beam axle that does not also transmit power is sometimes called a dead axle. While typically used in vehicles with Hotchkiss drive, this suspension system can also be used with other types of power transmission.\n\nThe principal advantage of the beam axle is its simplicity. This simplicity makes it very space-efficient and relatively cheap to manufacture. They are nearly universally used in buses and heavy-duty trucks. Most light and medium duty pickup trucks, SUVs, and vans also use a beam axle, at least in the rear. Beam axles have an important advantage for off-road applications, as they provide better vehicle articulation and durability in a high load environment.\n\nThe drawbacks are that it does not allow each wheel to move independently in response to bumps, and the mass of the beam is part of the unsprung weight of the vehicle, which can further reduce ride quality. Also the cornering ability is typically worse than other suspension designs because the wheels have zero camber angle gain during body roll. Front beam axle suspension is also unusually sensitive to any lack of concentricity in the hub and wheel assembly which can cause a side-to-side oscillation (shimmy) of the steering at certain speeds (typically 40-50mph). This is addressed on some vehicles with steering dampers although removal and careful refitting of the front wheels often cures the problem.\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart11_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

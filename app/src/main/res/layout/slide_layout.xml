@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/slide_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@drawable/dashboard_resize" />
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slide_img"
+        android:layout_centerHorizontal="true"
+        android:text="Dashboard"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slide_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="288dp"
+        android:layout_below="@+id/slide_heading"
+        android:padding="35dp"
+        android:text="The Engine Is Abnormally Loud   If your car is louder than normal, it’s most likely not the engine. The problem is in the exhaust system, which is connected to, but distinct from, the engine. Usually, it’s the muffler or catalytic converter causing the loud noises.  Either one can degrade over time and require replacing. "
+        android:textColor="@android:color/white" />
+</RelativeLayout>

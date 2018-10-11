@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart19">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart19_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart19_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A camshaft is a shaft to which a cam is fastened or of which a cam forms an integral part.\n\nAn early cam was built into Hellenistic water-driven automata from the 3rd century BC. The camshaft was later described in Turkey (Diyarbakır) by Al-Jazari in 1206. He employed it as part of his automata, water-raising machines, and water clocks such as the castle clock. The cam and camshaft later appeared in European mechanisms from at least the 14th century, or possibly earlier.\n\nAmong the first cars to utilize engines with single overhead camshafts were the Maudslay designed by Alexander Craig and introduced in 1902 and the Marr Auto Car designed by Michigan native Walter Lorenzo Marr in 1903.\n\nn internal combustion engines with pistons, the camshaft is used to operate poppet valves. It consists of a cylindrical rod running the length of the cylinder bank with a number of oblong lobes protruding from it, one for each valve. The cam lobes force the valves open by pressing on the valve, or on some intermediate mechanism, as they rotate.\n\nCamshafts can be made out of several types of material. These include:\n\nChilled iron castings: Commonly used in high volume production, chilled iron camshafts have good wear resistance since the chilling process hardens them. Other elements are added to the iron before casting to make the material more suitable for its application.\n\nBillet Steel: When a high quality camshaft or low volume production is required, engine builders and camshaft manufacturers choose steel billet. This is a much more time consuming process, and is generally more expensive than other methods. However, the finished product is far superior. CNC lathes, CNC milling machines, and CNC camshaft grinders will be used during production. Different types of steel bar can be used, one example being EN40b. When manufacturing a camshaft from EN40b, the camshaft will also be heat treated via gas nitriding, which changes the micro-structure of the material. It gives a surface hardness of 55-60 HRC. These types of camshafts can be used in high-performance engines.\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart19_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

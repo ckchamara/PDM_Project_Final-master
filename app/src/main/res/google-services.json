@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "912354479456",
+    "firebase_url": "https://autoline-assistance.firebaseio.com",
+    "project_id": "autoline-assistance",
+    "storage_bucket": "autoline-assistance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912354479456:android:a00482e8baa772ed",
+        "android_client_info": {
+          "package_name": "com.example.himashiyan.road_vehicle_assistance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "912354479456-8nmvm9j0v2sa33vmg4ks2d6ovb8dra4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5GHDYIoIK_3SOscAHSgQuTmowKA3HIJc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

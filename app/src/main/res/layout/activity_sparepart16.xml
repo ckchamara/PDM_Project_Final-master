@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart16">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart16_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart16_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A brake shoe is the part of a braking system which carries the brake lining in the drum brakes used on automobiles, or the brake block in train brakes and bicycle brakes.\n\nThe brake shoe carries the brake lining, which is riveted or glued to the shoe. When the brake is applied, the shoe moves and presses the lining against the inside of the drum. The friction between lining and drum provides the braking effort. Energy is dissipated as heat.\n\nModern cars have disc brakes all round, or discs at the front and drums at the rear. An advantage of discs is that they can dissipate heat more quickly than drums so there is less risk of overheating.\n\nThe brake shoe carries the brake block. The block was originally made of wood but is now usually cast iron. When the brake is applied, the shoe moves and presses the block against the tread of the wheel. As well as providing braking effort this also scrubs the wheel and keeps it clean. This scrubbing causes wear and tear on the wheel tread and often causes brake squeal. Tread brakes on passenger trains have now largely been superseded by disc brakes.\n\nThis comprises a pair of rectangular open boxes which are mounted on the brake calipers of a bicycle and that hold the brake blocks which rub on the rim of a bicycle wheel to slow the bicycle down or stop it.\n\nThere are different systems for the cataloguing of brake shoes. The most frequently used system in Europe is the WVA numbering system.\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart16_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

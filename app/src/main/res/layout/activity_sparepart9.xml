@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart9">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart9_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart9_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A backup camera (also called reversing camera) is a special type of video camera that is produced specifically for the purpose of being attached to the rear of a vehicle to aid in backing up, and to alleviate the rear blind spot. Backup cameras are alternatively known as 'reversing cameras' or 'rear view cameras'. It is specifically designed to avoid a backup collision. The area directly behind vehicles has been described as a killing zone due to the associated carnage.\n\nThe design of a backup camera is distinct from other cameras in that the image is horizontally flipped so that the output is a mirror image. This is necessary because the camera and the driver face opposite directions, and without it, the camera's right would be on the driver's left and vice versa. A mirrored image makes the orientation of the display consistent with the physical mirrors installed on the vehicle. A backup camera typically sports a wide-angle or fisheye lens. While such a lens spoils the camera's ability to see faraway objects, it allows the camera to see an uninterrupted horizontal path from one rear corner to the other. The camera is typically pointed on a downward angle, to view potential obstacles on the ground as well as the position of approaching walls and docks, rather than straight back.\n\nBackup cameras are common on vehicles that tow difficult-to-see trailers, such as motorhomes. Recently, with the rise in popularity of in-dash DVD players and GPS navigation systems which aid in justifying the expense of adding a color LCD to the driver's seat, they have become much more common, often available as optional factory accessories on standard passenger trucks and sport utility vehicles, as well as aftermarket accessories. Inside the vehicle, the display is typically wired to automatically sense when the transmission is set in reverse, showing the backup view while in reverse, and showing the map (or other content) at all other times.\n\nBackup cameras are produced in different varieties depending on the application.\n\nFor large vehicles such as motorhomes, camera systems with built-in servomechanisms allow the driver to remotely pan and tilt the camera.\n\nBuilt-in audio intercoms (one-way or two-way) are used in addition to the camera system for communicating with a spotter outside the vehicle - common when backing large trailers or launching boats.\n\nNight vision cameras use a series of infrared lights for backing in the dark, when the positioning or the intensity of the vehicle's white reverse lights are insufficient for this purpose.\n\nPortable or semi-permanent all-in-one camera systems (also known as dashboard cameras) are sold typically for small vehicles that don't have displays permanently installed in the dash. Such systems consist of a small portable screen that hangs from the sun visor above, and a length of wire to reach the cameras.\n\nLicense-plate-frame versions permit permanent installation without any permanent vehicle modifications.\n\nCustom cameras are produced to fit specific makes and models of vehicles. For example, for the Hummer H2, a specialized camera exists that replaces a factory tail light and matches the original vehicle style. Other custom cameras replace a brake light with a combination device that contains a camera while still illuminating as a brake light.\n\nBackup or Reversing Cameras can be added as aftermarket additions to vehicles that do not come with factory-fitted systems. They are available in both wired and wireless versions.\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart9_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

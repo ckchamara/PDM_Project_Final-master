@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart8">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart8_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart8_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="An automotive navigation system is part of the automobile controls or a third party add-on used to find direction in an automobile. It typically uses a satellite navigation device to get its position data which is then correlated to a position on a road. When directions are needed routing can be calculated. On the fly traffic information can be used to adjust the route.\n\nDead reckoning using distance data from sensors attached to the drivetrain, a gyroscope and an accelerometer can be used for greater reliability, as GPS signal loss and/or multipath can occur due to urban canyons or tunnels.\n\nAutomotive navigation systems represent a convergence of a number of diverse technologies many of which have been available for many years, but were too costly or inaccessible. Limitations such as batteries, display, and processing power had to be overcome before the product became commercially viable. Etak made an early system that used map-matching to improve on dead reckoning instrumentation. Digital map information was stored on standard cassette tapes.\n\n1966: General Motors Research (GMR) was working on a non-satellite-based navigation and assistance system called DAIR (Driver Aid, Information Routing). After initial tests GM found that it was not a scalable or practical way to provide navigation assistance. Decades later, however, the concept would be reborn as OnStar.\n\n1980: Electronic Auto Compass with new mechanism on the Toyota Crown.\n1981: navigation computer on the Toyota Celica. (NAVICOM)\n1987: Toyota introduced the World's first CD-ROM-based navigation system on the Toyota Crown.\n1990: Mazda Eunos Cosmo became the first car with built-in GPS-navigation system\n1991: Toyota introduced GPS car navigation on the Toyota Soarer.\n1991: Mitsubishi introduced GPS car navigation on the Mitsubishi Debonair (MMCS: Mitsubishi Multi Communication System).\n\nThe road database is a vector map. Street names or numbers and house numbers are encoded as geographic coordinates so that the user can find some desired destination by street address (see map database management).\n\nPoints of interest (waypoints) are stored with their geographic coordinates. Formats are almost uniformly proprietary; there is no industry standard for satellite navigation maps, although some companies are trying to address this with SDAL and NDS.\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart8_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

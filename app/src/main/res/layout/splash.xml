@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash"
+    android:background="@drawable/splash_bg">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="250sp"
+        android:layout_height="300sp"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="round_animation.json"
+        app:lottie_loop="true" />
+
+    <!--<ImageView-->
+        <!--android:id="@+id/splashLogo"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:background="@drawable/logo_resize" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/splashtitle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="85dp"-->
+        <!--android:text="AUTOLINE ASSISTANCE"-->
+        <!--android:typeface="serif"-->
+        <!--android:textColor="@color/TransparentWhite"-->
+        <!--android:textSize="20dp" />-->
+
+</RelativeLayout>

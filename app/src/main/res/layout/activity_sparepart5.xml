@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart5">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart5_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart5_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="An anti-lock braking system or anti-skid braking system (ABS) is an automobile safety system that allows the wheels on a motor vehicle to maintain tractive contact with the road surface according to driver inputs while braking, preventing the wheels from locking up (ceasing rotation) and avoiding uncontrolled skidding. It is an automated system that uses the principles of threshold braking and cadence braking which were practiced by skillful drivers with previous generation braking systems. It does this at a much faster rate and with better control than many drivers could manage.\n\nABS generally offers improved vehicle control and decreases stopping distances on dry and slippery surfaces; however, on loose gravel or snow-covered surfaces, ABS can significantly increase braking distance, although still improving vehicle steering control.\n\nSince initial widespread use in production cars, anti-lock braking systems have been improved considerably. Recent versions not only prevent wheel lock under braking, but also electronically control the front-to-rear brake bias. This function, depending on its specific capabilities and implementation, is known as electronic brakeforce distribution (EBD), traction control system, emergency brake assist, or electronic stability control (ESC).\n\nEarly systems\n\nIn 1920 the French automobile and aircraft pioneer Gabriel Voisin experimented with systems that modulated the hydraulic braking pressure on his aircraft brakes to reduce the risk of tire slippage. These systems use a flywheel and valve attached to a hydraulic line that feeds the brake cylinders. The flywheel is attached to a drum that runs at the same speed as the wheel. In normal braking, the drum and flywheel should spin at the same speed. However, when a wheel slows down, then the drum would do the same, leaving the flywheel spinning at a faster rate. This causes the valve to open, allowing a small amount of brake fluid to bypass the master cylinder into a local reservoir, lowering the pressure on the cylinder and releasing the brakes. The use of the drum and flywheel meant the valve only opened when the wheel was turning. In testing, a 30% improvement in braking performance was noted, because the pilots immediately applied full brakes instead of slowly increasing pressure in order to find the skid point. An additional benefit was the elimination of burned or burst tires.\n\nModern systems\n\nChrysler, together with the Bendix Corporation, introduced a computerized, three-channel, four-sensor all-wheel ABS called Sure Brake for its 1971 Imperial. It was available for several years thereafter, functioned as intended, and proved reliable. In 1970, Ford added an antilock braking system called Sure-track to the rear wheels of Lincoln Continentals as an option; it became standard in 1971. In 1971, General Motors introduced the Trackmaster rear-wheel only ABS as an option on their rear-wheel drive Cadillac models and the Oldsmobile Toronado. In the same year, Nissan offered an EAL (Electro Anti-lock System) developed by Japanese company Denso as an option on the Nissan President, which became Japan's first electronic ABS.\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart5_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.himashiyan.road_vehicle_assistance.pro">
+
+    <item
+        android:id="@+id/nav_Theme"
+        android:title="Theme"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/nav_Profile"
+        android:enabled="true"
+        android:title="Profile" />
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>

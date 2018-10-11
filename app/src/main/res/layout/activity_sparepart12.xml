@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart12">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart12_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart12_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A bearing is a machine element that constrains relative motion to only the desired motion, and reduces friction between moving parts. The design of the bearing may, for example, provide for free linear movement of the moving part or for free rotation around a fixed axis; or, it may prevent a motion by controlling the vectors of normal forces that bear on the moving parts. Most bearings facilitate the desired motion by minimizing friction. Bearings are classified broadly according to the type of operation, the motions allowed, or to the directions of the loads (forces) applied to the parts.\n\nRotary bearings hold rotating components such as shafts or axles within mechanical systems, and transfer axial and radial loads from the source of the load to the structure supporting it. The simplest form of bearing, the plain bearing, consists of a shaft rotating in a hole. Lubrication is often used to reduce friction. In the ball bearing and roller bearing, to prevent sliding friction, rolling elements such as rollers or balls with a circular cross-section are located between the races or journals of the bearing assembly. A wide variety of bearing designs exists to allow the demands of the application to be correctly met for maximum efficiency, reliability, durability and performance.\n\nThe term bearing is derived from the verb ; a bearing being a machine element that allows one part to bear (i.e., to support) another. The simplest bearings are bearing surfaces, cut or formed into a part, with varying degrees of control over the form, size, roughness and location of the surface. Other bearings are separate devices installed into a machine or machine part. The most sophisticated bearings for the most demanding applications are very precise devices; their manufacture requires some of the highest standards of current technology.The invention of the rolling bearing, in the form of wooden rollers supporting, or bearing, an object being moved is of great antiquity, and may predate the invention of the wheel.\n\nThough it is often claimed that the Egyptians used roller bearings in the form of tree trunks under sleds, this is modern speculation. They are depicted in their own drawings in the tomb of Djehutihotep as moving massive stone blocks on sledges with liquid-lubricated runners which would constitute a plain bearing. There are also Egyptian drawings of bearings used with hand drills.\n\nThe earliest recovered example of a rolling element bearing is a wooden ball bearing supporting a rotating table from the remains of the Roman Nemi ships in Lake Nemi, Italy. The wrecks were dated to 40 BC.\n\nLeonardo da Vinci incorporated drawings of ball bearings in his design for a helicopter around the year 1500. This is the first recorded use of bearings in an aerospace design. However, Agostino Ramelli is the first to have published sketches of roller and thrust bearings. An issue with ball and roller bearings is that the balls or rollers rub against each other causing additional friction which can be reduced by enclosing the balls or rollers within a cage. The captured, or caged, ball bearing was originally described by Galileo in the 17th century.\n\nThe first practical caged-roller bearing was invented in the mid-1740s by horologist John Harrison for his H3 marine timekeeper. This uses the bearing for a very limited oscillating motion but Harrison also used a similar bearing in a truly rotary application in a contemporaneous regulator clock.\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart12_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

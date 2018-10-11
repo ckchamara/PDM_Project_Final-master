@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart6">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart6_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart6_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="An antistatic device is any device that reduces, dampens, or otherwise inhibits the buildup or discharge of static electricity, which can damage electrical components such as computer hard drives, and even ignite flammable liquids and gases.\n\nVarious symbols can be found on products, indicating that the product is electrostatically sensitive, as with sensitive electrical components, or that it offers antistatic protection, as with antistatic bags.\n\nReach symbol\n\nMost commonly seen are variations of a reaching hand in a triangle. It is detailed as ANSI/ESD standard S8.1-2007The symbol will often depict the hand being crossed out using negative space. It acts as a warning for the component being protected, indicating that it is ESD sensitive and is not to be touched unless antistatic precautions are taken.\n\nAnother version of the symbol has the triangle surrounded by an arc. This variant is in reference to the antistatic protective device, such as an antistatic wrist strap, rather than the component being protected. It usually does not feature the hand being crossed out, indicating that it makes contact with the component safe.\n\nCircle\n\nAnother common symbol takes the form of a bold circle being intersected by three arrows. Originating as a U.S. military standard, it has been adopted industry-wide. It is intended as a depiction of a device or component being breached by static charges, indicated by the arrows.\n\nTypes of antistatic devices include:\n\nAntistatic bag\nAntistatic bar\nAntistatic garments\nAntistatic mat\nAntistatic wrist strap\n\nIn addition to wrist straps, ankle and heel straps are used in industry to bleed away accumulated charge from a body. These devices are usually not tethered to earth ground, but instead incorporate high resistance in their construction, and work by dissipating electrical charge to special floor tiles. Such straps are used when workers need to be mobile in a work area and a grounding cable would get in the way. They are used particularly in an operating theatre, where oxygen or explosive anesthetic gasses are used.\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart6_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

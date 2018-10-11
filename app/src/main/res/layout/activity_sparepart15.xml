@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart15">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart15_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart15_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The bench seat was the traditional seat installed in American and Australian automobiles. This seat featured a continuous pad running the full width of the cabin. The second row of seating in most sedans is usually a bench. The third row of most SUVs and minivans, which may be forward-facing or rear-facing, is also a bench seat.\n\nThe front bench seat typically allowed three people to sit abreast, or six passengers in most four-door sedans with this type of arrangement. For example, although advertised as an economical 'compact' car, the [1952] Willys Aero could comfortably sit three abreast on its front and rear bench seats, and deliver excellent fuel economy. Nash Motors introduced the unique airliner reclining front bench seats that would be transformed into a bed.\n\nAmerican Motors promoted its exclusive adjustable bench seats on the 1959 Ramblers and Ambassadors featuring several restful positions, including a comfortable nap couch for children and older adults. In 1972, the Jeep Commando's center console for the automatic transmission was replaced with a steering column mounted shifter, making the much-requested bench seat an option. The innovative but unusual  1975 AMC Pacer introduced numerous designs that included the cab forward and room for three upfront on the bench seat.\n\nThe bucket seat arrangement leaves a space between the two front seats, usually occupied by a shifter and hand brake. Originally, bucket seats were associated with imported cars in the 1950s and 1960s. The Volkswagen Bus was originally available with three rows of bench seats seating up to nine passengers, but since then most minivans have been configured to seat seven or eight with front bucket seats.\n\nIn Australia, the Holden Kingswood, Ford Falcon and Chrysler Valiant were fitted with bench seats for many years. To this day, the Falcon Ute is still offered with a bench seat and column shift in the front and availability of a front bench seat in the Falcon sedan and wagon lineups was only discontinued with the introduction of the FG Falcon in 2008. Holden offered a bench seat on the Commodore in the 1990s, originating with the VG Ute and ending with the end of VS series III production in 2000.\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart15_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

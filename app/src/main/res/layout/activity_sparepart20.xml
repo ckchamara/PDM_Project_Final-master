@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart20">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart20_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart20_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Car controls are the components in automobiles and other powered road vehicles, such as trucks and buses, used for driving and parking.\n\nWhile controls like steering wheels and pedals have existed since the invention of cars, other controls have developed and adapted to the demands of drivers. For example, manual transmissions became less common as technology relating to semi-automatic and automatic transmissions advanced.\n\nEarlier versions of headlights and signal lights were fueled by acetylene or oil. Acetylene was preferred to oil, because its flame is resistant to both wind and rain. Acetylene headlights were popular until 1898, when the first electric headlights were introduced.\n\nThe first automobiles were steered with a tiller. The steering wheel was first used when Alfred Vacheron competed in the 1894 Paris–Rouen motor race in a Panhard et Levassor. In 1898, steering wheels became a standard feature of Panhard et Levassor cars. They were introduced in the U.S. by Packard in 1899.\n\nPower steering helps drivers steer by augmenting the driver's steering effort. Power steering has used hydraulics to reduce a driver's steering effort. However, hydraulic steering is being replaced by electric power steering, because it eliminates the hydraulic pump, and increases fuel efficiency.\n\nFoot pedals are levers that are activated by the driver's feet to control certain aspects of the vehicle's operation. Pedals usually hang from the bulkhead on smaller vehicles, while typically standing on the floor in heavy-duty vehicles. Regardless of where the pedals are mounted, the arrangement is the same for both right- and left-hand traffic. The following pedals are positioned in left-to-right order:\n\nparking brake pedal\nclutch pedal\nbrake pedal\n\nVehicles that generate power with an internal combustion engine (ICE) are generally equipped with a transmission or gearbox to change the speed-torque ratio and the direction of travel. This does not usually apply to electric vehicles because their motors can drive the vehicle both forward and backward from zero speed. In some four-wheel drive vehicles there is a gear lever that engages a low-ratio gearbox. Other levers may switch between two- and four-wheel drive and differential locks.\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart20_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

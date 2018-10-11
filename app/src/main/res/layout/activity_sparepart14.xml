@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart14">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart14_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart14_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A belt is a loop of flexible material used to link two or more rotating shafts mechanically, most often parallel. Belts may be used as a source of motion, to transmit power efficiently, or to track relative movement. Belts are looped over pulleys and may have a twist between the pulleys, and the shafts need not be parallel. In a two pulley system, the belt can either drive the pulleys normally in one direction (the same if on parallel shafts), or the belt may be crossed, so that the direction of the driven shaft is reversed (the opposite direction to the driver if on parallel shafts). As a source of motion, a conveyor belt is one application where the belt is adapted to carry a load continuously between two points.\n\nBelts are the cheapest utility for power transmission between shafts that may not be axially aligned. Power transmission is achieved by specially designed belts and pulleys. The demands on a belt-drive transmission system are large, and this has led to many variations on the theme. They run smoothly and with little noise, and cushion motor and bearings against load changes, albeit with less strength than gears or chains. However, improvements in belt engineering allow use of belts in systems that only formerly allowed chains or gears.\n\nPower transmitted between a belt and a pulley is expressed as the product of difference of tension and belt velocity:\n\nwhere, T and T are tensions in the tight side and slack side of the belt respectively. They are related as\n\nwhere, μ is the coefficient of friction, and α is the angle (in radians) subtended by contact surface at the centre of the pulley.\n\nPros and cons\n\nBelt drives are simple, inexpensive, and do not require axially aligned shafts. They help protect machinery from overload and jam, and damp and isolate noise and vibration. Load fluctuations are shock-absorbed (cushioned). They need no lubrication and minimal maintenance. They have high efficiency (90–98%, usually 95%), high tolerance for misalignment, and are of relatively low cost if the shafts are far apart. Clutch action is activated by releasing belt tension. Different speeds can be obtained by stepped or tapered pulleys.\n\nThe angular-velocity ratio may not be constant or equal to that of the pulley diameters, due to slip and stretch. However, this problem has been largely solved by the use of toothed belts. Working temperatures range from −31 °F (−35 °C) to 185 °F (85 °C). Adjustment of center distance or addition of an idler pulley is crucial to compensate for wear and stretch.\n\nFlat belts\n\nFlat belts were widely used in the 19th and early 20th centuries in line shafting to transmit power in factories. They were also used in countless farming, mining, and logging applications, such as bucksaws, sawmills, threshers, silo blowers, conveyors for filling corn cribs or haylofts, balers, water pumps (for wells, mines, or swampy farm fields), and electrical generators. Flat belts are still used today, although not nearly as much as in the line-shaft era. The flat belt is a simple system of power transmission that was well suited for its day. It can deliver high power at high speeds (500 hp at 10,000 ft/min, or 373 kW at 51 m/s), in cases of wide belts and large pulleys.\n\nBut these wide-belt-large-pulley drives are bulky, consuming lots of space while requiring high tension, leading to high loads, and are poorly suited to close-centers applications, so V-belts have mainly replaced flat belts for short-distance power transmission; and longer-distance power transmission is typically no longer done with belts at all. For example, factory machines now tend to have individual electric motors.\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart14_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

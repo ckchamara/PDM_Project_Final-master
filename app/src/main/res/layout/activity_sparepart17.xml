@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart17">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart17_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart17_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A bucket seat is a seat contoured to hold one person, distinct from bench seats, which are flat platforms designed to seat multiple people. Bucket seats are standard in fast cars to keep drivers and other passengers in place when making sharp or quick turns.\n\nRacing vehicles usually have only one bucket seat. Vehicles sold to the general public often have two bucket seats in the front compartment and may contain more in the rear compartment.\n\nThe bucket seat trend was especially apparent in sporty cars, particularly two-seaters, most of which were manufactured in European nations. Some bucket seats may be swivel seats as well.\n\nFor decades, American cars were typically equipped with bench seats, which permitted three-passenger seating. As European cars became more accessible to Americans following World War II, bucket seats became the symbol of sport and luxury. Bucket seats then spread to American manufacturers, beginning as sporty trim packages in the late 1950s and later coming as a standard feature.\n\nBy 1962, more than 1 million U.S. built cars were factory equipped with bucket seats; often, these were fitted with a center console containing a gear shifter and other features between the seats. The popularity of the bucket seat grew with the advent of sporty compact cars (or pony cars) such as the Ford Mustang. With the introduction of subcompact-sized automobiles such as the Chevrolet Vega and Ford Pinto, bucket seats were used due to the lack of seating room and floor-mounted levers for the gear shifter and parking brake.\n\nWhile bucket seats continued to gain popularity among compact and sports cars, the traditional bench seat, which could seat up to three people, continued to be the preferred front seating arrangement in larger cars and trucks until the late 1990s. By the 1990s, a few mid- and full-size domestic cars, as well as trucks, offered front bucket seating options for customers who wanted a sports car image or a more personalized car.\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart17_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

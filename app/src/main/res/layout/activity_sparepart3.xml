@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart3">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart3_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart3_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alternators are used in modern automobiles to charge the battery and to power the electrical system when its engine is running.\n\nUntil the 1960s, automobiles used DC dynamo generators with commutators. With the availability of affordable silicon diode rectifiers, alternators were used instead. This was encouraged by the increasing electrical power required for cars in this period, with increasing loads from larger headlamps, electric wipers, heated rear windows and other accessories.\n\nVehicle alternators were first used by the military from WWII, to power radio equipment on specialist vehicles. Post-war, other vehicles with high electrical demands, such as ambulances and radio taxis, could also be fitted with optional alternators.\n\nAlternators were first introduced as standard equipment on a production car by the Chrysler Corporation on the Valiant in 1960, several years ahead of Ford and General Motors.\n\nFord Model T\n\nhe first car to use an alternator was an unusual system fitted to early Model T Fords. This entirely AC system was first used solely to power the trembler coil ignition system when the engine was running. When starting, a battery was used instead – cranking the engine was entirely manual. This system was sometimes used to also provide electric lighting. Being an AC system, there was no battery in this circuit. The starting battery was removed from the car for charging, a rare event as it was only needed when starting. The generator was usually described as a magneto, although this was not an ignition magneto (even though it was used to power the ignition) as it did not provide sparks itself.\n\nWhen the Model T was upgraded with electric lighting from the factory, a conventional dynamo was installed instead. This then permitted battery charging as well.\n\nAlternators have several advantages over direct-current generators. They are lighter, cheaper and more rugged. They use slip rings providing greatly extended brush life over a commutator. The brushes in an alternator carry only excitation current, a small fraction of the current carried by the brushes of a DC generator, which carry the generator's entire output. A set of rectifiers (diode bridge) is required to convert AC to DC. To provide direct current with low ripple, a three-phase winding is used and the pole-pieces of the rotor are shaped (claw-pole) to produce a waveform similar to a square wave instead of a sinusoid. Automotive alternators are usually belt-driven at 2–3 times crankshaft speed. The alternator runs at various RPM (which varies the frequency) since it is driven by the engine. This is not a problem because the alternating current is rectified to direct current.\n\nDespite their names, both 'DC generators' (or 'dynamos') and 'alternators' initially produce alternating current. In a so-called 'DC generator', this AC current is generated in the rotating armature, and then converted to DC by the commutator and brushes. In an 'alternator', the AC current is generated in the stationary stator, and then is converted to DC by the rectifiers (diodes).\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart3_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart4">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart4_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart4_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="An ammeter (from Ampere Meter) is a measuring instrument used to measure the current in a circuit. Electric currents are measured in amperes (A), hence the name. Instruments used to measure smaller currents, in the milliampere or microampere range, are designated as milliammeters or microammeters. Early ammeters were laboratory instruments which relied on the Earth's magnetic field for operation. By the late 19th century, improved instruments were designed which could be mounted in any position and allowed accurate measurements in electric power systems.\n\nThe relation between electric current, magnetic fields and physical forces was first noted by Hans Christian Ørsted who, in 1820, observed a compass needle was deflected from pointing North when a current flowed in an adjacent wire. The tangent galvanometer was used to measure currents using this effect, where the restoring force returning the pointer to the zero position was provided by the Earth's magnetic field. This made these instruments usable only when aligned with the Earth's field. Sensitivity of the instrument was increased by using additional turns of wire to multiply the effect – the instruments were called multipliers.\n\nMoving-coil\n\nThe D'Arsonval galvanometer is a moving coil ammeter. It uses magnetic deflection, where current passing through a coil placed in the magnetic field of a permanent magnet causes the coil to move. The modern form of this instrument was developed by Edward Weston, and uses two spiral springs to provide the restoring force. The uniform air gap between the iron core and the permanent magnet poles make the deflection of the meter linearly proportional to current. These meters have linear scales. Basic meter movements can have full-scale deflection for currents from about 25 microamperes to 10 milliamperes.\n\nBecause the magnetic field is polarised, the meter needle acts in opposite directions for each direction of current. A DC ammeter is thus sensitive to which way round it is connected; most are marked with a positive terminal, but some have centre-zero mechanisms and can display currents in either direction. A moving coil meter indicates the average (mean) of a varying current through it, which is zero for AC. For this reason moving-coil meters are only usable directly for DC, not AC.\n\nMoving magnet\n\nMoving magnet ammeters operate on essentially the same principle as moving coil, except that the coil is mounted in the meter case, and a permanent magnet moves the needle. Moving magnet Ammeters are able to carry larger currents than moving coil instruments, often several tens of Amperes, because the coil can be made of thicker wire and the current does not have to be carried by the hairsprings. Indeed, some Ammeters of this type do not have hairsprings at all, instead using a fixed permanent magnet to provide the restoring force.\n\nElectrodynamic\n\nAn electrodynamic movement uses an electromagnet instead of the permanent magnet of the d'Arsonval movement. This instrument can respond to both alternating and direct current and also indicates true RMS for AC. See Wattmeter for an alternative use for this instrument.\n\nHot-wire\n\nIn a hot-wire ammeter, a current passes through a wire which expands as it heats. Although these instruments have slow response time and low accuracy, they were sometimes used in measuring radio-frequency current. These also measure true RMS for an applied AC current.\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart4_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

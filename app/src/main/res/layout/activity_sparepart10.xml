@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/top4"
+    tools:context=".sparepart10">
+
+    <ScrollView
+        android:layout_width="346dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sparepart10_textview1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sparepart10_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In an automobile, ball joints are spherical bearings that connect the control arms to the steering knuckles. They are used on virtually every automobile made and work similarly to the ball-and-socket design of the human hip joint.\n\nA ball joint consists of a bearing stud and socket enclosed in a casing; all these parts are made of steel. The bearing stud is tapered and threaded, and fits into a tapered hole in the steering knuckle. A protective encasing prevents dirt from getting into the joint assembly. Usually, this is a rubber-like boot that allows movement and expansion of lubricant. Motion-control ball joints tend to be retained with an internal spring, which helps to prevent vibration problems in the linkage.\n\nA ball joint is used for allowing free movement in two planes at the same time, including rotating in those planes. Combining two such joints with control arms enables motion in all three planes, allowing the front end of an automobile to be steered and a spring and shock (damper) suspension to make the ride comfortable.\n\nA simple kingpin suspension requires that the upper and lower control arms (wishbones) have pivot axes that are parallel, and in strict geometric relationship to the kingpin, or the top and bottom trunnions, which connect the kingpin to the control arms, would be severely stressed and the bearings would suffer severe wear. In practice, many vehicles had elastomeric bearings in the horizontal pivots of the trunnions, which allowed some small amount of flexibility, however this was insufficient to allow much adjustment of caster to be made, and also introduced compliance where the suspension designer may not have desired it in his quest for optimum handling.\n\nCamber angle could generally be adjusted by moving both inner pivots of either the upper or lower control arm inwards or outwards by an exactly equal amount. But compliance of the control arm inner pivots, typically due to the use of elastomeric bearings, would again cause the trunnions to be stressed. The suspension designer's freedom was severely limited, it was necessary to have some compliance where it might not be wanted, and very little where more would have been useful in absorbing the fore and aft impact loading from bumps.\n\nThe introduction of ball joints top and bottom allowed 3-axis articulation and so removed all the constraints on the control arm axes being exactly parallel, so caster could be freely adjusted, typically by asymmetric adjustment of the position of the control arm inner pivots, while camber was adjusted by the symmetric adjustment of these same pivots.\n\nThe arrangements for adjusting the toe angle are not changed by introducing ball joints in the suspension, although it should be noted that the steering linkage itself must use 4 or more pivots, also usually ball joints, and in almost every vehicle ever made, some of these have been adjustable by having a threaded end and locknut, to enable the toe to be set precisely.\n\nThis ability to fine-tune ball-jointed suspension allows manufacturers to make the automobile more stable and easier to steer, compared to the older kingpin style suspension. It may also be quieter and more comfortable, because lateral and fore and aft compliance in the suspension can be introduced in controlled amounts at the control arm inner pivots without compromising the integrity of the steering axis pivots, which are now ball joints instead of a king pin and trunnions. The smoother ride may also increase tire tread life, since the ball-joint suspension allows better control of suspension geometry and so can provide better tire-to-road contact.\n\nOn modern vehicles, ball joints are the pivot between the wheels and the suspension of an automobile. They are today almost universally used in the front suspension, having replaced the kingpin/linkpin or kingpin/trunnion arrangement, but can also be found in the rear suspension of a few higher-performance autos. Ball joints play a critical role in the safe operation of an automobile's steering and suspension.\n"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sparepart10_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
